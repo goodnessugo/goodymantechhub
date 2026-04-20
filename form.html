@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Enrollment Form</title>
+    <link rel="stylesheet" href="./formStyle.css">
+    <link rel="stylesheet" href="./fontawesome/css/all.min.css">
+</head>
+
+<body>
+
+    <div class="form-container">
+        <h2>Enroll Now</h2>
+
+        <!-- form -->
+        <form action="" id="enrollForm">
+            <input type="text" id="name" placeholder="Full Name" required />
+            <input type="email" id="email" placeholder="Email Address" required />
+            <input type="tel" id="phone" placeholder="Phone Number" required />
+
+            <!-- select course -->
+            <select name="" id="course" required>
+                <option value="">Select Course</option>
+                <option value="web design">Web Design</option>
+                <option value="computer engineering">Computer Engineering</option>
+                <option value="desktop publishing">Desktop Publishing</option>
+                <option value="graphics design">Graphics Design</option>
+                <option value="accounting">Advanced Accounting Package</option>
+                <option value="content creation">Content Creation</option>
+            </select>
+
+            <!-- submit button -->
+            <button type="submit">Register</button>
+
+        </form>
+
+        <!-- successful mesage handle -->
+        <p class="success" id="successMsg">Registration successful! Check your email.</p>
+
+    </div>
+
+
+
+
+    <script src="./function.js"></script>
+</body>
+
+</html>

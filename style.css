@@ -1,0 +1,249 @@
+* {
+  padding: 0;
+  margin: 0;
+  --primary-color: #f0b429;
+  --secondary-color: #0a2540;
+  --secondary2-color: #133758;
+}
+
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background: #f5f5f5;
+}
+
+header {
+  background: #0a2540;
+  color: white;
+  height: 15vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+
+header img {
+  height: 3rem;
+}
+
+header h1 {
+  color: #f0b429;
+}
+
+nav {
+  background: #133758;
+  text-align: center;
+  padding: 0.5rem 1rem;
+  height: 3.5vh;
+}
+
+nav a {
+  color: white;
+  margin: 0 15px;
+  text-decoration: none;
+  font-weight: bold;
+  padding: 0.5rem 2rem;
+}
+
+nav a:hover {
+  background: #105291;
+}
+
+.hero {
+  /* background: linear-gradient(to right, #0a2540, #1c3d5a); */
+
+  /* background-image: url(./images/design2.jpg), linear-gradient(to right, #0a2540, #1c3d5a); */
+  background-image:
+    url("./images/design2.jpg"), linear-gradient(to right, #0c4074, #184e7e);
+  background-position: bottom;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-blend-mode: overlay;
+
+  color: white;
+  padding: 2.5rem 1rem;
+  text-align: center;
+  text-shadow: 2px 2px 5px #0a2540;
+  height: 70vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+
+.hero h1 {
+  font-size: 36px;
+}
+
+.btn {
+  background: #f0b429;
+  color: black;
+  padding: 12px 20px;
+  text-decoration: none;
+  border-radius: 5px;
+  font-weight: bold;
+  width: auto;
+}
+
+.courseSection {
+  padding: 40px 20px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 2rem;
+}
+
+.section {
+  padding: 40px 20px;
+  text-align: center;
+}
+
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 2rem;
+  font-size: small;
+}
+
+.card {
+  background: white;
+  padding: 20px;
+  width: 18rem;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  height: 12rem;
+  display: flex;
+  justify-content: center;
+  align-items: end;
+}
+
+.textHolder {
+  background-color: rgba(255, 255, 255, 0.521);
+  padding: 0.5rem;
+  border-radius: 0.8rem;
+  box-shadow: 1px 1px 10px;
+}
+
+#webdesign {
+  background-image: url("./images/coding.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+#graphicsdesign {
+  background-image: url("./images/graphics.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+#office {
+  background-image: url("./images/office.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+#engineering {
+  background-image: url("./images/engineering.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+#accounting {
+  background-image: url("./images/accounting.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+#content {
+  background-image: url("./images/content.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+#internet {
+  background-image: url("./images/internet2.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+#printing {
+  background-image: url("./images/printing.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+#onlineregistration {
+  background-image: url("./images/online2.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+footer {
+  background: #0a2540;
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
+
+#contact {
+  background-color: white;
+}
+
+#contact span {
+  color: rgb(238, 99, 6);
+}
+
+#contact h1 {
+  padding-bottom: 2rem;
+}
+
+/* whatsApp Styling */
+.whatsapp-btn {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background: #25d366;
+  color: white;
+  padding: 15px;
+  border-radius: 50px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+/* scroll effect */
+html {
+  scroll-behavior: smooth;
+}
+
+.barMenu {
+  color: white;
+  visibility: hidden;
+  cursor: pointer;
+}
+
+/* responsiveness */
+@media screen and (max-width: 600px) {
+  .barMenu {
+    visibility: visible;
+    font-size: 1.5rem;
+  }
+
+  nav a {
+    display: none;
+  }
+
+  nav {
+    text-align: right;
+  }
+}
