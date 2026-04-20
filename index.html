@@ -11,6 +11,18 @@
 
 <body>
 
+  <div class="overlay" id="overlayMenu">
+    <div class="sideMenu">
+      <div class="closeBtn">
+        <i class="fa-solid fa-x" onclick="closeNav()"></i>
+      </div>
+      <a href="#">Home</a>
+      <a href="#courses" smooth>Courses</a>
+      <a href="#cafe">Cafe</a>
+      <a href="#contact">Contact</a>
+    </div>
+
+  </div>
 
   <header>
     <img src="./images/white goodyman 2.png" alt="">
@@ -23,13 +35,13 @@
     <a href="#courses" smooth>Courses</a>
     <a href="#cafe">Cafe</a>
     <a href="#contact">Contact</a>
-    <i class="fa-solid fa-bars barMenu"></i>
+    <i class="fa-solid fa-bars barMenu" onclick="openNav()"></i>
   </nav>
 
   <section class="hero">
     <h1>Master Digital Skills & Stay Connected</h1>
     <p>Computer Training + Digital Cafe in One Place</p>
-    <a href="./form.html" class="btn">Enroll Now</a>
+    <a href="https://forms.gle/t9MSHoKGu54HhjFa8" class="btn">Enroll Now</a>
   </section>
 
 
@@ -38,71 +50,72 @@
     💬 Chat Us on WhatsApp
   </a>
 
+
   <section class="section" id="courses">
     <h2>Our Computer School</h2>
     <div class="firstCourseSection">
       <div class="cards">
-      <div class="card" id="webdesign">
-        <div class="textHolder">
-          <h3>Web Design & Development</h3>
-          <p>Start from beginner to expert level</p>
+        <div class="card" id="webdesign">
+          <div class="textHolder">
+            <h3>Web Design & Development</h3>
+            <p>Start from beginner to expert level</p>
+          </div>
+
+        </div>
+
+        <div class="card" id="graphicsdesign">
+          <div class="textHolder">
+            <h3>Graphic Design</h3>
+            <p>Create stunning designs like a pro</p>
+          </div>
+
+        </div>
+
+        <div class="card" id="office">
+          <div class="textHolder">
+            <h3>Desktop Publishing</h3>
+            <p>Learn Word, Excel & PowerPoint etc.</p>
+          </div>
+
         </div>
 
       </div>
 
-      <div class="card" id="graphicsdesign">
-        <div class="textHolder">
-          <h3>Graphic Design</h3>
-          <p>Create stunning designs like a pro</p>
-        </div>
-
-      </div>
-
-      <div class="card" id="office">
-        <div class="textHolder">
-          <h3>Desktop Publishing</h3>
-          <p>Learn Word, Excel & PowerPoint etc.</p>
-        </div>
-
-      </div>
-
-    </div>
-   
   </section>
 
   <section class="section">
-     <!-- second course section -->
+    <!-- second course section -->
 
     <div class="secondCourseSection">
 
       <div class="cards">
-        
-      <div class="card" id="engineering">
-        <div class="textHolder">
-          <h3>Computer Engineering</h3>
-          <p>Fixing Hardware parts/ installations</p>
+
+        <div class="card" id="engineering">
+          <div class="textHolder">
+            <h3>Computer Engineering</h3>
+            <p>Fixing Hardware parts/ installations</p>
+          </div>
+
         </div>
 
-      </div>
+        <div class="card" id="accounting">
+          <div class="textHolder">
+            <h3>Advanced Accounting Package</h3>
+            <p>Work with Real-Life Data</p>
+          </div>
 
-      <div class="card" id="accounting">
-        <div class="textHolder">
-          <h3>Advanced Accounting Package</h3>
-          <p>Work with Real-Life Data</p>
         </div>
 
-      </div>
+        <div class="card" id="content">
+          <div class="textHolder">
+            <h3>Content Creation</h3>
+            <p>Create and Dominate your niche</p>
+          </div>
 
-      <div class="card" id="content">
-        <div class="textHolder">
-          <h3>Content Creation</h3>
-          <p>Create and Dominate your niche</p>
         </div>
-
       </div>
     </div>
-    </div>
-    
+
   </section>
 
   <section class="section" id="cafe">
@@ -137,10 +150,10 @@
 
   <section class="section" id="contact">
     <h1>We are here for you contact us at <span>Anytime </span></h1>
-     <p><i class="fa-solid fa-phone"></i> 0903 476 2859</p>
+    <p><i class="fa-solid fa-phone"></i> 0903 476 2859</p>
     <p><i class="fa-regular fa-envelope"></i> goodyman@gmail.com</p>
     <p><i class="fa-solid fa-house"></i> School Bus Stop Plaza, Opposite Corner Stone Clinic, Ajangbadi Ojo Lagos</p>
-   
+
   </section>
 
   <footer>
@@ -159,7 +172,7 @@
 
 
 
-
+<script src="./function.js"></script>
 </body>
 
 </html>

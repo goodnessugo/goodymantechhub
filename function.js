@@ -1,3 +1,22 @@
+// Side Menu programming Logic
+let overlayMenu = document.getElementById("overlayMenu");
+
+function openNav() {
+    overlayMenu.style.display = "block";
+}
+
+
+function closeNav() {
+    overlayMenu.style.display = "none";
+}
+
+
+
+
+
+
+
+
 document.getElementById("enrollForm").addEventListener("submit", async function (e) {
     e.preventDefault(); //this prevent page reload
 
