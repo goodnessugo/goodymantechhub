@@ -232,17 +232,15 @@ html {
   cursor: pointer;
 }
 
-
 .overlay {
   background-color: rgba(0, 0, 0, 0.815);
- 
+
   height: 100vh;
   width: 50%;
-  
+
   position: fixed;
   right: 0;
   z-index: 1;
-  
 }
 
 .sideMenu {
@@ -250,34 +248,26 @@ html {
   flex-direction: column;
   padding: 2rem;
   gap: 2rem;
-  
-  
-
 }
 
 .sideMenu a {
- text-decoration: none;
- font-weight: bold;
- color: white;
-
+  text-decoration: none;
+  font-weight: bold;
+  color: white;
 }
 
-
-.closeBtn{
+.closeBtn {
   display: flex;
   justify-content: right;
-   color: white;
-   cursor: pointer;
-   
+  color: white;
+  cursor: pointer;
 }
 
-.closeBtn i{
+.closeBtn i {
   background-color: rgb(80, 80, 80);
   padding: 0.5rem;
   border-radius: 50%;
-   
 }
-
 
 /* responsiveness */
 @media screen and (max-width: 600px) {
@@ -292,5 +282,16 @@ html {
 
   nav {
     text-align: right;
+  }
+
+  .hero {
+    background-position: left;
+    justify-content: start;
+    gap: 0;
+  }
+
+
+  .hero p{
+   padding-bottom: 9rem;
   }
 }
